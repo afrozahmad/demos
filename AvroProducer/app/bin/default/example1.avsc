@@ -1,0 +1,18 @@
+{
+    "type": "record",
+    "name": "Type3",
+    "namespace": "co.uk.dalelane",
+    "fields": [
+        {
+            "name": "direction",
+            "type": {
+                "type": "enum",
+                "name": "Compass",
+                "namespace": "co.uk.dalelane",
+                "symbols": [
+                    "NORTH", "SOUTH", "EAST", "WEST"
+                ]
+            }
+        }
+    ]
+}
